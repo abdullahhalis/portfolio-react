@@ -1,0 +1,19 @@
+[
+{
+ "period": "Apr 2024 - Jul 2024",
+ "type": "Internship",
+ "companyName": "WeSolve Solusi Indonesia",
+ "role": "Web Developer Intern",
+ "isCurrent": false,
+ "tasks": [
+  "Developed a full stack web application for employee attendance and task scheduling",
+  "Utilized React.js library to create engaging user interfaces and developed RESTful API with Express.js and PostgreSQL for data management",
+  "Coordinated effectively in an Agile team of 8, contributing to project planning, development, and testing"
+ ],
+ "skills": [
+  "React.js",
+  "Express.js",
+  "PostgreSQL"
+ ]
+}
+]
