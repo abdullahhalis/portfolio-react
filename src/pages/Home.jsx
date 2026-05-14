@@ -1,3 +1,4 @@
+import { Projects } from "@/components/Projects";
 import { About } from "../components/About";
 import { Experience } from "../components/Experience";
 import Hero from "../components/Hero";
@@ -10,7 +11,7 @@ export default function Home() {
       <Hero/>
       <About/>
       <Experience />
-      <section id="projects" className="min-h-screen scroll-mt-20">Projects</section>
+      <Projects />
       <section id="education" className="min-h-screen scroll-mt-20">Education</section>
       <section id="contact" className="min-h-screen scroll-mt-20">Contact</section>
     </div>
