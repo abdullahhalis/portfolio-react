@@ -1,0 +1,77 @@
+{
+ "education": [
+  {
+   "institution": "Universitas Indraprasta PGRI",
+   "degree": "Bachelor of Computer Science (S.Kom)",
+   "period": "Sep 2020 - Aug 2024",
+   "logo": "/assets/images/unindra-logo.jpg",
+   "gpa": "3.62/4.00"
+  },
+  {
+   "institution": "Bangkit Academy",
+   "degree": "Mobile Development Learning Path",
+   "period": "Aug 2023 - Jan 2024",
+   "logo": "/assets/images/bangkit-logo.png",
+   "achievement": "Graduate with distinction (top 10%)",
+   "certificate": "/assets/pdf/certificates/bangkit.pdf"
+  }
+ ],
+ "certifications": [
+  {
+   "name": "Dev Certification for Android (DCA)",
+   "issuer": "Dev.id",
+   "date": "Sep 2025",
+   "pdf": "/assets/pdf/certificates/dca.pdf",
+   "image": "/assets/images/certificates/dca.jpg",
+   "credential": "https://dev.id/certificate/verify/OXWK94XWDG"
+  },
+  {
+   "name": "Menjadi Android Developer Expert (MADE)",
+   "issuer": "Dicoding Indonesia",
+   "date": "Mar 2024",
+   "pdf": "/assets/pdf/certificates/made.pdf",
+   "image": "/assets/images/certificates/made.jpg",
+   "credential": "https://www.dicoding.com/certificates/81P2NKYWJXOY"
+  },
+  {
+   "name": "Belajar Membuat Aplikasi Android dengan Jetpack Compose",
+   "issuer": "Dicoding Indonesia",
+   "date": "Nov 2023",
+   "pdf": "/assets/pdf/certificates/jetpack-compose.pdf",
+   "image": "/assets/images/certificates/jetpack-compose.jpg",
+   "credential": "https://www.dicoding.com/certificates/GRX52VGMRX0M"
+  },
+  {
+   "name": "Belajar Fundamental Back-End dengan JavaScript",
+   "issuer": "Dicoding Indonesia",
+   "date": "Sep 2023",
+   "pdf": "/assets/pdf/certificates/fundamental-backend.pdf",
+   "image": "/assets/images/certificates/fundamental-backend.jpg",
+   "credential": "https://www.dicoding.com/certificates/GRX52VGMRX0M"
+  },
+  {
+   "name": "Belajar Machine Learning untuk Pemula",
+   "issuer": "Dicoding Indonesia",
+   "date": "Apr 2024",
+   "pdf": "/assets/pdf/certificates/ml.pdf",
+   "image": "/assets/images/certificates/ml.jpg",
+   "credential": "https://www.dicoding.com/certificates/GRX52VGMRX0M"
+  },
+  {
+   "name": "Belajar Prinsip Pemrograman SOLID",
+   "issuer": "Dicoding Indonesia",
+   "date": "Nov 2023",
+   "pdf": "/assets/pdf/certificates/solid.pdf",
+   "image": "/assets/images/certificates/solid.jpg",
+   "credential": "https://www.dicoding.com/certificates/GRX52VGMRX0M"
+  },
+  {
+   "name": "Belajar Dasar Git dengan GitHub",
+   "issuer": "Dicoding Indonesia",
+   "date": "Aug 2023",
+   "pdf": "/assets/pdf/certificates/git.pdf",
+   "image": "/assets/images/certificates/git.jpg",
+   "credential": "https://www.dicoding.com/certificates/GRX52VGMRX0M"
+  }
+ ]
+}

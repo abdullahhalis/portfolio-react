@@ -1,3 +1,4 @@
+import { Education } from "@/components/Education";
 import { Projects } from "@/components/Projects";
 import { About } from "../components/About";
 import { Experience } from "../components/Experience";
@@ -12,7 +13,7 @@ export default function Home() {
       <About/>
       <Experience />
       <Projects />
-      <section id="education" className="min-h-screen scroll-mt-20">Education</section>
+      <Education />
       <section id="contact" className="min-h-screen scroll-mt-20">Contact</section>
     </div>
   );
