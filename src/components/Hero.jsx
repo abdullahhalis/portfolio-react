@@ -12,9 +12,9 @@ export default function Hero() {
         <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
           Abdullah Hali Saputra
         </h1>
-        <h2 className="text-3xl md:text-4xl font-bold">Software Developer</h2>
+        <h2 className="text-xl md:text-2xl font-bold">Software Developer</h2>
 
-        <p className="mt-4 text-lg">
+        <p className="mt-4">
           Informatics engineering graduate passionate in{" "}
           <span className="font-semibold underline underline-offset-4">
             <Typewriter

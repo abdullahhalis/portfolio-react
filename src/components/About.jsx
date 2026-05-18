@@ -30,14 +30,14 @@ export function About() {
               </span>
             </div>
 
-            <div className="space-y-5 rounded-2xl m-8 bg-surface-hover p-8">
+            <div className="space-y-5 rounded-2xl m-6 bg-surface-hover p-6">
               <div className="flex items-start gap-4">
                 <div className="bg-bg/60 p-3 rounded-xl">
                   <MapPin size={18} className="text-primary" />
                 </div>
                 <div>
-                  <p className="text-text-muted text-sm">Location</p>
-                  <p className="mt-1 font-medium">{aboutData.location}</p>
+                  <p className="text-text-muted text-xs">Location</p>
+                  <p className="mt-1 font-medium text-sm">{aboutData.location}</p>
                 </div>
               </div>
 
@@ -46,14 +46,14 @@ export function About() {
                   <Mail size={18} className="text-primary" />
                 </div>
                 <div>
-                  <p className="text-text-muted text-sm">Email</p>
-                  <p className="mt-1 font-medium">{aboutData.email}</p>
+                  <p className="text-text-muted text-xs">Email</p>
+                  <p className="mt-1 font-medium text-sm">{aboutData.email}</p>
                 </div>
               </div>
             </div>
           </div>
           <div>
-            <p>{aboutData.summary}</p>
+            <p className="text-justify leading-relaxed">{aboutData.summary}</p>
             <h3 className="text-xl font-semibold mt-10">Skills & Tools</h3>
             <div className="flex flex-wrap gap-4 mt-8">
               {aboutData.featuredSkills.map((skill, index) => {

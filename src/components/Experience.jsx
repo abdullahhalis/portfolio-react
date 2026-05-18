@@ -16,7 +16,7 @@ export function Experience() {
       </span>
 
       {experienceData.map((experience, index) => (
-        <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8 px-8 py-4 md:py-10">
+        <div key={index} className="relative grid grid-cols-1 md:grid-cols-2 gap-8 px-8 py-4 md:py-10">
           <div className="md:text-right pr-12 mt-6">
             <span
               className={cn(`inline-flex px-3 py-2
@@ -51,7 +51,7 @@ export function Experience() {
               {experience.companyName}
             </p>
 
-            <ul className="mt-4 ml-4 list-disc space-y-2 text-text-muted leading-relaxed">
+            <ul className="mt-4 ml-4 list-disc space-y-2 text-text-muted leading-relaxed text-justify">
               {experience.tasks.map((task, index) => (
                 <li key={index}>{task}</li>
               ))}

@@ -83,7 +83,7 @@ export function ProjectDialog({ project, onClose }) {
               </div>
 
               <h3 className="mt-4 font-semibold text-sm">Overview</h3>
-              <p className="mt-2 text-text-muted text-xs leading-relaxed">
+              <p className="mt-2 text-text-muted text-xs leading-relaxed text-justify">
                 {project.overview}
               </p>
 
@@ -95,7 +95,7 @@ export function ProjectDialog({ project, onClose }) {
               </ul>
 
               <h3 className="mt-4 font-semibold text-sm">Role</h3>
-              <p className="mt-2 text-text-muted">{project.role}</p>
+              <p className="mt-2 text-text-muted text-justify">{project.role}</p>
 
               <h3 className="mt-4 font-semibold text-sm">Challenges</h3>
               <ul className="mt-2 list-disc ml-5 space-y-1 text-text-muted">

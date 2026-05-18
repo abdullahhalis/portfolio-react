@@ -71,10 +71,11 @@ export default function NavBar() {
           </a>
 
           <nav className="hidden md:flex gap-x-6">
-            {navItems.map((item) => {
+            {navItems.map((item, index) => {
               if (item.toLowerCase() === "resume") {
                 return (
                   <a
+                    key={index}
                     href="/assets/pdf/resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -120,10 +121,11 @@ export default function NavBar() {
             }`,
           )}
         >
-          {navItems.map((item) => {
+          {navItems.map((item, index) => {
             if (item.toLowerCase() === "resume") {
               return (
                 <a
+                  key={index}
                   href="/assets/pdf/resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
