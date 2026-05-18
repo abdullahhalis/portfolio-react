@@ -1,3 +1,4 @@
+import { Contact } from "@/components/Contact";
 import { Education } from "@/components/Education";
 import { Projects } from "@/components/Projects";
 import { About } from "../components/About";
@@ -9,12 +10,15 @@ export default function Home() {
   return (
     <div>
       <NavBar />
-      <Hero/>
-      <About/>
+      <Hero />
+      <About />
       <Experience />
       <Projects />
       <Education />
-      <section id="contact" className="min-h-screen scroll-mt-20">Contact</section>
+      <Contact />
+      <footer className="py-8 bg-bg text-center text-sm text-text-muted border-t border-border">
+        © {new Date().getFullYear()} Abdullah Hali Saputra
+      </footer>
     </div>
   );
 }
