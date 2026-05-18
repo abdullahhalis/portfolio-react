@@ -9,8 +9,9 @@ export function Contact() {
     >
       <div
         className="        
+          max-w-6xl
           bg-surface
-          w-[90vw] h-fit mx-auto py-12 px-8 md:px-12
+          w-[85vw] h-fit mx-auto py-12 px-8 md:px-12
           flex flex-col justify-center items-center
           border border-primary/30 rounded-2xl hover:border-primary transition
           "
@@ -33,7 +34,7 @@ export function Contact() {
                 className="group flex items-center gap-2 p-4 bg-surface-hover border rounded-xl border-border hover:scale-105 hover:border-primary/40 hover:bg-surface transition"
               >
                 <Icon size={18} className="text-text-muted" />
-                <span className="text-sm font-medium">{item.value}</span>
+                <span className="text-xs md:text-sm font-medium">{item.value}</span>
                 <ExternalLink
                   size={14}
                   className="

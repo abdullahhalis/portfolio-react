@@ -18,7 +18,7 @@ export function About() {
           <div className="bg-surface rounded-3xl h-fit relative text-sm md:text-base">
             <div className="absolute top-0 w-full h-35 rounded-t-3xl bg-linear-to-br from-primary/30 to-primary" />
             <img
-              src="/assets/images/profile.png"
+              src={aboutData.image}
               alt="Profile"
               className="w-32 h-32 rounded-full mx-auto object-cover relative z-10 border-4 border-surface mt-20"
             />
@@ -30,14 +30,16 @@ export function About() {
               </span>
             </div>
 
-            <div className="space-y-5 rounded-2xl m-6 bg-surface-hover p-6">
+            <div className="space-y-5 rounded-2xl 
+            bg-surface-hover
+             p-4 md:p-6 mx-4 my-6 md:m-6">
               <div className="flex items-start gap-4">
                 <div className="bg-bg/60 p-3 rounded-xl">
                   <MapPin size={18} className="text-primary" />
                 </div>
                 <div>
                   <p className="text-text-muted text-xs">Location</p>
-                  <p className="mt-1 font-medium text-sm">{aboutData.location}</p>
+                  <p className="mt-1 font-bold text-xs md:text-sm">{aboutData.location}</p>
                 </div>
               </div>
 
@@ -47,13 +49,13 @@ export function About() {
                 </div>
                 <div>
                   <p className="text-text-muted text-xs">Email</p>
-                  <p className="mt-1 font-medium text-sm">{aboutData.email}</p>
+                  <p className="mt-1 font-bold text-xs md:text-sm">{aboutData.email}</p>
                 </div>
               </div>
             </div>
           </div>
           <div>
-            <p className="text-justify leading-relaxed">{aboutData.summary}</p>
+            <p className="md:text-justify leading-relaxed">{aboutData.summary}</p>
             <h3 className="text-xl font-semibold mt-10">Skills & Tools</h3>
             <div className="flex flex-wrap gap-4 mt-8">
               {aboutData.featuredSkills.map((skill, index) => {

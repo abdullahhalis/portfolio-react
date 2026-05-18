@@ -83,22 +83,22 @@ export function ProjectDialog({ project, onClose }) {
               </div>
 
               <h3 className="mt-4 font-semibold text-sm">Overview</h3>
-              <p className="mt-2 text-text-muted text-xs leading-relaxed text-justify">
+              <p className="mt-2 text-text-muted text-xs leading-relaxed md:text-justify">
                 {project.overview}
               </p>
 
               <h3 className="mt-4 font-semibold text-sm">Key Features</h3>
-              <ul className="mt-2 list-disc ml-5 space-y-1 text-text-muted">
+              <ul className="mt-2 list-disc ml-5 space-y-1 text-text-muted md:text-justify">
                 {project.features.map((feature, index) => (
                   <li key={index}>{feature}</li>
                 ))}
               </ul>
 
               <h3 className="mt-4 font-semibold text-sm">Role</h3>
-              <p className="mt-2 text-text-muted text-justify">{project.role}</p>
+              <p className="mt-2 text-text-muted md:text-justify">{project.role}</p>
 
               <h3 className="mt-4 font-semibold text-sm">Challenges</h3>
-              <ul className="mt-2 list-disc ml-5 space-y-1 text-text-muted">
+              <ul className="mt-2 list-disc ml-5 space-y-1 text-text-muted md:text-justify">
                 {project.challenges.map((challenge, index) => (
                   <li key={index}>{challenge}</li>
                 ))}

@@ -64,7 +64,7 @@ export default function NavBar() {
         <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
           <a
             href="#home"
-            className="font-bold text-lg"
+            className="font-extrabold text-xl"
             onClick={handleScroll("home")}
           >
             <span className="text-text">Abdullahhalis</span>
@@ -79,7 +79,7 @@ export default function NavBar() {
                     href="/assets/pdf/resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm font-semibold transition text-text-muted hover:text-primary"
+                    className="font-semibold transition text-text-muted hover:text-primary"
                   >
                     Resume <ExternalLink size={14} className="inline" />
                   </a>
@@ -91,7 +91,7 @@ export default function NavBar() {
                     href={`#${item.toLowerCase()}`}
                     onClick={handleScroll(item.toLowerCase())}
                     className={cn(
-                      "text-sm font-semibold transition",
+                      "font-semibold transition",
                       active === item.toLowerCase()
                         ? "text-primary"
                         : "text-text-muted hover:text-primary",
@@ -116,7 +116,7 @@ export default function NavBar() {
       {isOpen && (
         <div
           className={cn(
-            `fixed inset-0 bg-bg/70 backdrop-blur z-40 flex flex-col items-center justify-center gap-8 text-xl transition-opacity duration-300 ${
+            `fixed inset-0 bg-bg/70 backdrop-blur z-40 flex flex-col items-center justify-center gap-8 transition-opacity duration-300 ${
               isOpen ? "translate-y-0" : "-translate-y-full"
             }`,
           )}
@@ -129,7 +129,7 @@ export default function NavBar() {
                   href="/assets/pdf/resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm font-semibold transition text-text-muted hover:text-primary"
+                  className="font-semibold transition text-text-muted hover:text-primary"
                 >
                   Resume <ExternalLink size={14} className="inline" />
                 </a>
@@ -141,7 +141,7 @@ export default function NavBar() {
                   href={`#${item.toLowerCase()}`}
                   onClick={handleScroll(item.toLowerCase())}
                   className={cn(
-                    "text-sm font-semibold transition",
+                    "font-semibold transition",
                     active === item.toLowerCase()
                       ? "text-primary"
                       : "text-text-muted hover:text-primary",

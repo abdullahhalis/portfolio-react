@@ -1,16 +1,17 @@
 import {
- SiExpress,
- SiFlutter,
- SiGit,
- SiJetpackcompose,
- SiKotlin,
- SiPostgresql,
- SiReact,
- SiTailwindcss,
+  SiExpress,
+  SiFlutter,
+  SiGit,
+  SiJetpackcompose,
+  SiKotlin,
+  SiPostgresql,
+  SiReact,
+  SiTailwindcss,
 } from "react-icons/si";
 
 export const About = {
   name: "Abdullah Hali Saputra",
+  image: "/assets/images/profile.png",
   title: "Software Developer",
   location: "East Jakarta, Indonesia",
   email: "abdullahhalis12@gmail.com",
